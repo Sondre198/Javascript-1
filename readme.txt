@@ -9,4 +9,4 @@ I also made the website responsive with mobile devices
 to make the checkout page I used a tutorial on W3Schools
 https://www.w3schools.com/howto/howto_css_checkout_form.asp
 
-
+The css loading spinner was borrowed from https://loading.io/css/
