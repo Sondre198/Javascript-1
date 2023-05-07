@@ -6,7 +6,6 @@ try {
         throw new Error("Not found")
     let game = await response.json()
 
-    await new Promise(r=>setTimeout(r, 5000)) //FJERN ETTER STYLING//
     document.getElementById("spinner").remove()
 
     document.getElementById("game_title").innerText = game.title
