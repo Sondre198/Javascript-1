@@ -2,6 +2,7 @@ let response = await fetch("https://api.noroff.dev/api/v1/gamehub")
 let games = await response.json() 
 
 let html = ""
+document.getElementById("spinner").remove()
 
 for (const game of games){
     html += `

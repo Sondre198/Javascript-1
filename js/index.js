@@ -2,6 +2,7 @@ let response = await fetch("https://api.noroff.dev/api/v1/gamehub")
 let games = await response.json()
 
 let newestRelease = games[0]
+document.getElementById("spinner").remove()
 document.getElementById("newest_release_title").innerText = newestRelease.title
 const newestReleaseImg = document.getElementById("newest_release_image")
 newestReleaseImg.src = newestRelease.image
